@@ -1,0 +1,109 @@
+.about {
+  margin: 130px auto 250px;
+  max-width: 1677px;
+  min-height: 710px;
+  background-color: #ffffff;
+  background-image: url("../../img/coma.png");
+  background-repeat: no-repeat;
+  background-size: none;
+  background-position-x: 90%;
+  background-position-y: 400px;
+
+
+  .man {
+    img {
+      top: -90px;
+      left: 100px;
+      position: absolute;
+    }
+
+    .play {
+      top: 250px;
+      left: 300px;
+      position: absolute;
+      display: block;
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+  }
+
+  p {
+    margin-top: 220px;
+    max-width: 720px;
+    font-family: $font-stack;
+    font-size: 2.625em;
+    font-weight: 400;
+    margin-left: 100px;
+  }
+  .name {
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: $font-stack;
+    color: #333333;
+    font-size: 1.125em;
+    font-weight: 700;
+    display: block;
+  }
+  .position {
+    margin-left: 100px;
+    font-family: $font-stack;
+    font-weight: 400;
+    font-size: 1.125em;
+    display: block;
+    color: #848a9c;
+  }
+  .link {
+    margin-top: 30px;
+    margin-left: 85px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .text {
+    box-sizing: border-box;
+    padding-left: 40%;
+  }
+  .about {
+    .man {
+
+      img {
+        opacity: 0.8;
+      }
+    }
+    p {
+      margin-top: 110px;
+    }
+    p, span {
+      font-size: 2em;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .about {
+    background-image: none;
+    .man {
+
+      img {
+        opacity: 0.5;
+      }
+      .play {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    .play {
+      display: none;
+    }
+    .man {
+      display: none;
+    }
+  }
+}

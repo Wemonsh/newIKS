@@ -1,0 +1,95 @@
+.contacts {
+  margin-bottom: -90px;
+  font-family: $font-stack;
+  text-align: center;
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+  .headline {
+    display: block;
+    margin-top: 68px;
+    font-weight: 700;
+    font-size: 2.625em;
+  }
+  .description {
+    font-size: 1.500em;
+    font-weight: 700;
+    margin-bottom: 46px;
+  }
+  .social-icons {
+    margin-top: 50px;
+    ul {
+      padding: 0;
+      li {
+        margin: 0px 20px;
+        display: inline-block;
+        a {
+          display: block;
+          transition: 0.3s;
+          img {
+            width: 33px;
+            fill: #cb3456;
+            stroke: #cb3456;
+          }
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+
+  }
+  form {
+    color: #d1d1d1;
+    max-width: 800px;
+    margin: 0 auto;
+    input[type="tel"] {
+      padding-left: 49px;
+      width: 400px;
+      height: 100px;
+      border-radius: 25px 0 0 25px;
+      border: 3px solid #e5e0e1;
+      border-right: none;
+      margin-right: -5px;
+      background-color: #ffffff;
+      font-weight: 400;
+      font-size: 1.500em;
+      outline: none;
+    }
+    .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+      background-color: #cb3456 !important;
+      outline: none;
+    }
+    button {
+      width: 400px;;
+      height: 100px;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 1.500em;
+      border: 0;
+      box-shadow: 0 20px 50px rgba(255, 54, 120, 0.3), 0 3px 10px rgba(236, 0, 72, 0.25);
+      border-radius: 0 25px 25px 0;
+      background-image: linear-gradient(-5deg, #c62c50 0%, #f0474f 100%);
+      animation: none;
+      transition: 1s;
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0 20px 50px rgba(255, 54, 120, 0.5), 0 3px 10px rgba(236, 0, 72, 0.5);
+      }
+    }
+    .custom-control {
+      opacity: 0.7;
+      color: #333333;
+      margin-top: 20px;
+      text-align: center;
+      label {
+        a {
+          color: #333333;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

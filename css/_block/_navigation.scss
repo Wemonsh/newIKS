@@ -1,0 +1,108 @@
+
+.navbar {
+  max-width: 100%;
+  padding: 30px 0px;
+  margin: 0 auto;
+  text-align: center;
+  .navbar_logotype {
+    .logo {
+      margin-top: -20px;
+    }
+  }
+  .navbar_menu {
+    button {
+      border: none;
+      background: none;
+      float: left;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    nav {
+      ul {
+        min-width: 501px;
+        margin-top: 8px;
+        margin-left: 120px;
+        padding: 0px;
+        list-style: none;
+        text-align: left;
+        li {
+          display: inline-block;
+          margin-right: 30px;
+          a {
+            font-family: $font-stack;
+            font-weight: 700;
+            font-size: 1.125em;
+            text-transform: uppercase;
+            color: #231b23;
+            text-decoration: none;
+            letter-spacing: 2.52px;
+            &:hover {
+              text-decoration: underline;
+              transition: 0.3s;
+              color: #d23559;
+            }
+          }
+        }
+      }
+    }
+  }
+  .navbar_phone {
+    .phone {
+      margin-top: 10px;
+      margin-right: 20px;
+      float: right;
+      font-family: $font-stack;
+      font-weight: 700;
+      font-size: 1.500em;
+      a {
+        text-decoration: none;
+        margin-left: 10px;
+        color: #333333;
+        transition: 0.3s;
+      }
+      &:hover {
+        img {
+          color: #c62c50;
+          animation: phone-pulse 1s ease infinite;
+        }
+        a {
+          text-decoration: underline;
+          color: #d23559;
+        }
+      }
+      @keyframes phone-pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    }
+  }
+}
+
+.headhesive {
+  z-index: 2;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  transform: translateY(-100%);
+  transition: 0.5s;
+  font-size: 0.9em;
+  .navbar {
+    padding: 5px 0px 0px !important;
+    .logo {
+      margin-top: -5px;
+      max-width: 50px;
+    }
+  }
+}
+
+.headhesive--stick {
+  transform: translateY(0);
+}

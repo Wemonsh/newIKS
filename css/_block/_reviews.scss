@@ -1,0 +1,20 @@
+.reviews {
+  padding-bottom: 200px;
+  max-width: 1440px;
+  margin: 0 auto;
+  h2 {
+    margin-left: 60px;
+    margin-bottom: 40px;
+  }
+  .link {
+    margin-left: 50px;
+  }
+  img {
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+
+    }
+  }
+}
