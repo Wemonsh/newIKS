@@ -5,7 +5,8 @@
 
     <!-- Vendor CSS -->
     <link rel="stylesheet" type="text/css" href="../../css/_vendor/animate.css">
-    <link rel="stylesheet" type="text/css" href="../../css/_vendor/slick.css">
+    <link rel="stylesheet" type="text/css" href="../../css/_vendor/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="../../css/_vendor/slick/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="../../css/_vendor/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../../css/_vendor/demo.css" />
     <!-- My CSS -->

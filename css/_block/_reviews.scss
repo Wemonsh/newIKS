@@ -9,11 +9,61 @@
   .link {
     margin-left: 50px;
   }
+
+.reviews-slider {
+
+  .slick-dots {
+
+
+    & li button:before {
+      font-size: 12px !important;
+    }
+  }
+
+
+  .slick-prev {
+    bottom: 0px;
+
+    &:before {
+      content: '';
+    }
+  }
+  .slick-prev[aria-disabled="false"] {
+    background-image: url("/img/left.png");
+    background-repeat: no-repeat;
+  }
+  .slick-prev[aria-disabled="true"] {
+    background-image: url("/img/left-no-activ.png");
+    background-repeat: no-repeat;
+  }
+
+  .slick-next {
+
+    &:before {
+      content: '';
+    }
+  }
+  .slick-next[aria-disabled="false"] {
+    background-image: url("/img/right.png");
+    background-repeat: no-repeat;
+  }
+  .slick-next[aria-disabled="true"] {
+    background-image: url("/img/right-no-activ.png");
+    background-repeat: no-repeat;
+  }
+
+
+}
+
   img {
+    max-width: 100%;
+    padding: 15% 15%;
+    background-image: url("/img/border.png");
+    background-size: cover;
     transition: 0.3s;
     cursor: pointer;
     &:hover {
-      transform: scale(1.1);
+      transform: scale(1.03);
 
     }
   }
