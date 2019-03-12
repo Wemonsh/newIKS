@@ -48,13 +48,7 @@ a:focus {
 }
 
 /* Icons */
-.icon {
-	display: block;
-	width: 1.5em;
-	height: 1.5em;
-	margin: 0 auto;
-	fill: currentColor;
-}
+
 
 .icon--keyboard {
 	display: none;

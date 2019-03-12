@@ -203,6 +203,13 @@ h2 {
   -ms-transform: translateY(0);
   transform: translateY(0); }
 
+@media (max-width: 1366px) {
+  .global-menu {
+    padding: 20px;
+    overflow: scroll;
+    max-width: 300px;
+    height: 500px; } }
+
 .slider {
   max-width: 1680px;
   margin: 0 auto;
@@ -804,6 +811,55 @@ footer {
     font-weight: 700; }
     .footer .copyright a {
       color: #cb3456; }
+
+.mission {
+  margin: 150px 0 100px; }
+  .mission .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif; }
+    .mission .container .content {
+      padding-right: 100px; }
+      .mission .container .content p {
+        font-size: 1.125em; }
+      .mission .container .content .description {
+        font-size: 2em; }
+    @media (max-width: 1366px) {
+      .mission .container .content {
+        padding-right: 0; } }
+    .mission .container .icons-m {
+      padding-left: 60px; }
+      .mission .container .icons-m .icon-m {
+        margin-bottom: 50px !important; }
+        .mission .container .icons-m .icon-m p {
+          font-size: 1.125em; }
+        .mission .container .icons-m .icon-m img {
+          margin-bottom: 10px; }
+  .mission .headline {
+    text-align: center; }
+  .mission .video {
+    position: relative;
+    margin-top: 50px;
+    background-color: #392936;
+    text-align: center;
+    min-height: 600px; }
+    .mission .video .play {
+      position: absolute;
+      left: 45%;
+      top: 40%; }
+
+.mission-video {
+  margin-bottom: 200px; }
+
+.about-maps {
+  margin-bottom: 200px !important; }
+  .about-maps .container {
+    max-width: 1440px;
+    margin: 0 auto; }
+    .about-maps .container h2 {
+      text-align: center; }
+    .about-maps .container .map {
+      margin-top: 50px; }
 
 .protection {
   max-width: 1440px;

@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     // Прилипающая навигация
     var options = {
-        offset: 1080,
+        offset: 360,
         onStick: function () {
             $(".hamburger--demo-5").css({"position":"fixed", "top":"5px"});
         },

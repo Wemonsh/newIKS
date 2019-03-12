@@ -1,0 +1,56 @@
+.mission {
+  margin: 150px 0 100px;
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    .content {
+      padding-right: 100px;
+      p {
+        font-size: 1.125em;
+      }
+      .description {
+        font-size: 2em;
+      }
+    }
+    @media (max-width: 1366px) {
+      .content {
+        padding-right: 0;
+      }
+    }
+    .icons-m {
+      padding-left: 60px;
+      .icon-m {
+        p {
+          font-size: 1.125em;
+        }
+        img {
+          margin-bottom: 10px;
+        }
+        margin-bottom: 50px !important;
+      }
+    }
+  }
+
+  .headline {
+    text-align: center;
+  }
+
+  .video {
+    position: relative;
+    margin-top: 50px;
+    background-color: #392936;
+    text-align: center;
+    min-height: 600px;
+    .play {
+      position: absolute;
+      left: 45%;
+      top: 40%;
+    }
+  }
+}
+
+.mission-video {
+  margin-bottom: 200px;
+}
+

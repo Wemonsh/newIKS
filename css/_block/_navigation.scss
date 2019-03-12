@@ -106,3 +106,12 @@
 .headhesive--stick {
   transform: translateY(0);
 }
+
+@media (max-width: 1366px) {
+  .global-menu {
+    padding: 20px;
+    overflow: scroll;
+    max-width: 300px;
+    height: 500px;
+  }
+}
