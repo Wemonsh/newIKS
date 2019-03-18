@@ -3010,6 +3010,9 @@ h2 {
 }
 
 .article {
+  margin-bottom: 50px;
+  padding-bottom: 100px;
+  background-color: #ffffff;
   .container {
     margin-top: -120px;
     max-width: 1680px;
@@ -3151,8 +3154,10 @@ h2 {
       float: left;
       padding-right: 30px;
       img {
+        max-width: 240px;
+        height: 240px;
+        object-fit: cover;
         float: left;
-        max-width: 100%;
         margin-right: 30px;
       }
       span {
@@ -3182,7 +3187,9 @@ h2 {
       padding-left: 30px;
       img {
         float: right;
-        max-width: 100%;
+        max-width: 240px;
+        height: 240px;
+        object-fit: cover;
         margin-left: 30px;
       }
       span {

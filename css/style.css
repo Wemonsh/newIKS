@@ -207,8 +207,11 @@ h2 {
   .global-menu {
     padding: 20px;
     overflow: scroll;
-    max-width: 300px;
-    height: 500px; } }
+    max-width: 90%;
+    height: 90vh;
+    margin: auto; }
+  .global-menu::-webkit-scrollbar {
+    width: 0; } }
 
 .slider {
   max-width: 1680px;
@@ -573,11 +576,24 @@ h2 {
     margin-left: -10px; }
   .publications .publications_article .media {
     margin-bottom: 100px; }
-    .publications .publications_article .media a {
+    .publications .publications_article .media .media-body {
+      font-family: "Lato", sans-serif; }
+      .publications .publications_article .media .media-body .title {
+        font-size: 1.500em;
+        font-weight: 400; }
+      .publications .publications_article .media .media-body .name {
+        font-size: 1.125em;
+        font-weight: 700; }
+      .publications .publications_article .media .media-body .position {
+        font-size: 1.125em;
+        font-weight: 400; }
+  .publications a {
+    text-decoration: none; }
+    .publications a .media {
       color: #231b23; }
-      .publications .publications_article .media a:hover {
+      .publications a .media:hover {
         text-decoration: none; }
-        .publications .publications_article .media a:hover .image::after {
+        .publications a .media:hover .image::after {
           opacity: 0.5;
           -webkit-animation: fade 0.3s linear;
           animation: fade 0.3s linear;
@@ -590,21 +606,21 @@ h2 {
           position: absolute;
           border-radius: 50%;
           background-color: #c62c50; }
-        .publications .publications_article .media a:hover .media-body .title {
+        .publications a .media:hover .media-body .title {
           color: #c62c50; }
-      .publications .publications_article .media a .image {
+      .publications a .media .image {
         float: left;
         position: relative;
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s;
         margin-bottom: 40px; }
-        .publications .publications_article .media a .image img {
+        .publications a .media .image img {
           max-width: 120px;
           max-height: 120px;
           border-radius: 50%;
           margin-right: 40px; }
-        .publications .publications_article .media a .image::after {
+        .publications a .media .image::after {
           z-index: 10;
           opacity: 0; }
 
@@ -623,19 +639,6 @@ h2 {
     opacity: 0.3; }
   100% {
     opacity: 0.5; } }
-    .publications .publications_article .media .media-body {
-      font-family: "Lato", sans-serif; }
-      .publications .publications_article .media .media-body .title {
-        font-size: 1.500em;
-        font-weight: 400; }
-      .publications .publications_article .media .media-body .name {
-        font-size: 1.125em;
-        display: block;
-        font-weight: 700; }
-      .publications .publications_article .media .media-body .position {
-        font-size: 1.125em;
-        display: block;
-        font-weight: 400; }
 
 .social {
   max-width: 1440px;
@@ -661,7 +664,10 @@ h2 {
         max-width: 100%;
         margin-bottom: 30px;
         -webkit-filter: grayscale(100%);
-        filter: grayscale(100%); }
+        filter: grayscale(100%);
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s; }
       .social .card-columns .card .card_text {
         font-family: "Lato", sans-serif;
         font-weight: 400;
@@ -3037,157 +3043,167 @@ h2 {
       width: 100%;
       min-height: 100% !important; }
 
-.article .container {
-  margin-top: -120px;
-  max-width: 1680px; }
-  .article .container .post-card {
-    margin-top: 990px; }
-    .article .container .post-card img {
-      margin-bottom: 30px; }
-    .article .container .post-card p {
-      color: #d23559;
-      font-size: 1.125em;
-      font-weight: 700; }
-    .article .container .post-card time {
-      color: #333333; }
-  .article .container .service-card {
-    margin-top: 490px; }
-    .article .container .service-card img {
-      display: block;
-      max-width: 111px;
-      margin-bottom: 30px; }
-    .article .container .service-card .title {
-      font-size: 1.500em;
-      font-weight: 700;
-      color: #333333; }
-    .article .container .service-card p {
-      margin-top: 15px;
-      color: #333333; }
-    .article .container .service-card .transition {
-      font-size: 1.125em;
-      color: #d23559;
-      font-weight: 700; }
-  .article .container .author {
-    margin-top: 490px;
-    max-width: 163px; }
-    .article .container .author img {
-      display: block; }
-    .article .container .author .name {
-      display: block;
-      margin: 30px 0px 20px;
-      font-size: 1.500em;
-      font-weight: 700; }
-    .article .container .author p {
-      margin: 0px;
-      font-size: 0.875em; }
-    .article .container .author .company {
-      margin-bottom: 20px; }
-    .article .container .author a {
-      color: #d23559; }
-      .article .container .author a:hover {
-        text-decoration: underline; }
-  .article .container .cover-article {
-    padding: 120px 100px;
-    position: relative;
-    z-index: 1;
-    background-color: #ffffff; }
-    .article .container .cover-article h1 {
-      font-family: "Lato", sans-serif;
-      font-weight: 700;
-      font-size: 3.750em;
-      letter-spacing: 7.7px;
-      text-transform: uppercase; }
-      .article .container .cover-article h1 span {
-        margin-left: -30px;
-        padding-left: 30px; }
-      .article .container .cover-article h1 .line {
-        position: relative; }
-        .article .container .cover-article h1 .line::after {
-          content: "";
-          position: absolute;
-          z-index: -1;
-          top: 25px;
-          left: 0px;
-          right: 0px;
-          bottom: 0px;
-          border-top: #fbe3bd solid 25px; }
-    .article .container .cover-article .post-marks {
-      margin-top: 40px;
-      margin-bottom: 70px; }
-      .article .container .cover-article .post-marks time {
-        margin-right: 10px; }
-      .article .container .cover-article .post-marks .tag {
-        margin-left: 15px;
-        padding: 9px;
-        border-radius: 5px;
-        background-color: #f8f3f5;
-        color: #d23559; }
-    .article .container .cover-article p {
-      padding: 15px 0px;
-      color: #2f2f2f;
-      font-size: 1.500em;
-      font-weight: 400;
-      line-height: 35px; }
-      .article .container .cover-article p a {
+.article {
+  margin-bottom: 50px;
+  padding-bottom: 100px;
+  background-color: #ffffff; }
+  .article .container {
+    margin-top: -120px;
+    max-width: 1680px; }
+    .article .container .post-card {
+      margin-top: 990px; }
+      .article .container .post-card img {
+        margin-bottom: 30px; }
+      .article .container .post-card p {
         color: #d23559;
-        text-decoration: underline; }
-    .article .container .cover-article figure figcaption {
-      margin-top: 20px;
-      font-style: italic; }
-    .article .container .cover-article blockquote {
-      margin: 60px 0px;
-      padding: 20px 30px;
-      font-size: 1.500em;
-      font-weight: 700;
-      font-style: italic;
-      border-left: 6px solid #f8f3f5; }
-  .article .container .left {
-    max-width: 640px;
-    height: 240px;
-    background-color: #f8f3f5;
-    float: left;
-    padding-right: 30px; }
-    .article .container .left img {
+        font-size: 1.125em;
+        font-weight: 700; }
+      .article .container .post-card time {
+        color: #333333; }
+    .article .container .service-card {
+      margin-top: 490px; }
+      .article .container .service-card img {
+        display: block;
+        max-width: 111px;
+        margin-bottom: 30px; }
+      .article .container .service-card .title {
+        font-size: 1.500em;
+        font-weight: 700;
+        color: #333333; }
+      .article .container .service-card p {
+        margin-top: 15px;
+        color: #333333; }
+      .article .container .service-card .transition {
+        font-size: 1.125em;
+        color: #d23559;
+        font-weight: 700; }
+    .article .container .author {
+      margin-top: 490px;
+      max-width: 163px; }
+      .article .container .author img {
+        display: block; }
+      .article .container .author .name {
+        display: block;
+        margin: 30px 0px 20px;
+        font-size: 1.500em;
+        font-weight: 700; }
+      .article .container .author p {
+        margin: 0px;
+        font-size: 0.875em; }
+      .article .container .author .company {
+        margin-bottom: 20px; }
+      .article .container .author a {
+        color: #d23559; }
+        .article .container .author a:hover {
+          text-decoration: underline; }
+    .article .container .cover-article {
+      padding: 120px 100px;
+      position: relative;
+      z-index: 1;
+      background-color: #ffffff; }
+      .article .container .cover-article h1 {
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-size: 3.750em;
+        letter-spacing: 7.7px;
+        text-transform: uppercase; }
+        .article .container .cover-article h1 span {
+          margin-left: -30px;
+          padding-left: 30px; }
+        .article .container .cover-article h1 .line {
+          position: relative; }
+          .article .container .cover-article h1 .line::after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: 25px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            border-top: #fbe3bd solid 25px; }
+      .article .container .cover-article .post-marks {
+        margin-top: 40px;
+        margin-bottom: 70px; }
+        .article .container .cover-article .post-marks time {
+          margin-right: 10px; }
+        .article .container .cover-article .post-marks .tag {
+          margin-left: 15px;
+          padding: 9px;
+          border-radius: 5px;
+          background-color: #f8f3f5;
+          color: #d23559; }
+      .article .container .cover-article p {
+        padding: 15px 0px;
+        color: #2f2f2f;
+        font-size: 1.500em;
+        font-weight: 400;
+        line-height: 35px; }
+        .article .container .cover-article p a {
+          color: #d23559;
+          text-decoration: underline; }
+      .article .container .cover-article figure figcaption {
+        margin-top: 20px;
+        font-style: italic; }
+      .article .container .cover-article blockquote {
+        margin: 60px 0px;
+        padding: 20px 30px;
+        font-size: 1.500em;
+        font-weight: 700;
+        font-style: italic;
+        border-left: 6px solid #f8f3f5; }
+    .article .container .left {
+      max-width: 640px;
+      height: 240px;
+      background-color: #f8f3f5;
       float: left;
-      max-width: 100%;
-      margin-right: 30px; }
-    .article .container .left span {
-      display: block;
-      margin-bottom: 30px;
-      margin-top: 40px;
-      font-size: 0.875em;
-      font-weight: 700;
-      color: #000000;
-      text-transform: uppercase; }
-    .article .container .left p {
-      font-size: 1.125em;
-      font-weight: 700;
-      color: #d23559; }
-    .article .container .left time {
-      font-size: 0.875em;
-      color: #333333; }
-  .article .container .right {
-    max-width: 640px;
-    height: 240px;
-    background-color: #f8f3f5;
-    float: right;
-    padding-left: 30px; }
-    .article .container .right img {
+      padding-right: 30px; }
+      .article .container .left img {
+        max-width: 240px;
+        height: 240px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        float: left;
+        margin-right: 30px; }
+      .article .container .left span {
+        display: block;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        font-size: 0.875em;
+        font-weight: 700;
+        color: #000000;
+        text-transform: uppercase; }
+      .article .container .left p {
+        font-size: 1.125em;
+        font-weight: 700;
+        color: #d23559; }
+      .article .container .left time {
+        font-size: 0.875em;
+        color: #333333; }
+    .article .container .right {
+      max-width: 640px;
+      height: 240px;
+      background-color: #f8f3f5;
       float: right;
-      max-width: 100%;
-      margin-left: 30px; }
-    .article .container .right span {
-      display: block;
-      margin-bottom: 30px;
-      margin-top: 40px;
-      font-size: 0.875em;
-      font-weight: 700;
-      color: #000000;
-      text-transform: uppercase; }
-    .article .container .right p {
-      font-size: 1.125em;
-      font-weight: 700;
-      color: #d23559; }
-    .article .container .right time {
-      font-size: 0.875em;
-      color: #333333; }
+      padding-left: 30px; }
+      .article .container .right img {
+        float: right;
+        max-width: 240px;
+        height: 240px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        margin-left: 30px; }
+      .article .container .right span {
+        display: block;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        font-size: 0.875em;
+        font-weight: 700;
+        color: #000000;
+        text-transform: uppercase; }
+      .article .container .right p {
+        font-size: 1.125em;
+        font-weight: 700;
+        color: #d23559; }
+      .article .container .right time {
+        font-size: 0.875em;
+        color: #333333; }

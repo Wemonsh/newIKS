@@ -11,7 +11,7 @@
     <span class="headline">Связаться с нами</span>
     <p class="description">Опытный юрист перезвонит в <span>11:25</span> и ответит на вопросы</p>
     <form action="#">
-        <input id="number" type="tel" placeholder="Ваш телефон">
+        <input id="number" type="tel" placeholder="Ваш телефон" required>
         <button>Перезвоните мне</button>
         <div class="custom-control custom-checkbox">
             <input type="checkbox" class="custom-control-input" id="customControlInline" checked>

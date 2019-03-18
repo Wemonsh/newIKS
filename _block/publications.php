@@ -7,42 +7,45 @@
             <a class="link wow fadeIn" href="#">Все публикации</a>
         </div>
         <div class="col-lg-12 col-xl-6 publications_article">
-            <div class="media wow slideInRight">
-                <a href="#">
-                    <div class="image">
-                        <img src="../img/human1.png" alt="Generic placeholder image">
-                    </div>
-                    <div class="media-body">
-                        <p class="title">Название научной статьи или публикацию на тему права, которую написал один из руководителей компании ИКС</p>
-                        <span class="name">Константин Константинопольский,</span>
-                        <span class="position">должность</span>
-                    </div>
-                </a>
-            </div>
-            <div class="media wow slideInRight">
-                <a href="#">
-                    <div class="image">
-                        <img src="../img/human2.png" alt="Generic placeholder image">
-                    </div>
-                    <div class="media-body">
-                        <p class="title">Название научной статьи или публикацию на тему права, которую написал один из руководителей компании ИКС</p>
-                        <span class="name">Константин Константинопольский,</span>
-                        <span class="position">должность</span>
-                    </div>
-                </a>
-            </div>
-            <div class="media wow slideInRight">
-                <a href="#">
-                    <div class="image">
+            <a href="#" class="wow slideInRight">
+                <div class="media">
+                    <div class="image align-self-start mr-3">
                         <img src="../img/human3.png" alt="Generic placeholder image">
                     </div>
                     <div class="media-body">
-                        <p class="title">Название научной статьи или публикацию на тему права, которую написал один из руководителей компании ИКС</p>
-                        <span class="name">Константин Константинопольский,</span>
-                        <span class="position">должность</span>
+                        <p class="title">Название научной статьи или публикацию на тему права, которую написал Название научной статьи или публикацию на тему права, которую написал Название научной статьи или публикацию на тему права, которую написал один из руководителей компании ИКС</p>
+                        <p class="name">Константин Константинопольский,</p>
+                        <p class="position">должность</p>
                     </div>
-                </a>
-            </div>
+                </div>
+            </a>
+
+            <a href="#" class="wow slideInRight">
+                <div class="media">
+                    <div class="image align-self-start mr-3">
+                        <img src="../img/human3.png" alt="Generic placeholder image">
+                    </div>
+                    <div class="media-body">
+                        <p class="title">Название научной статьи или публикацию на тему права, которую написал Название научной статьи или публикацию на тему права, которую написал Название научной статьи или публикацию на тему права, которую написал один из руководителей компании ИКС</p>
+                        <p class="name">Константин Константинопольский,</p>
+                        <p class="position">должность</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="wow slideInRight">
+                <div class="media">
+                    <div class="image align-self-start mr-3">
+                        <img src="../img/human3.png" alt="Generic placeholder image">
+                    </div>
+                    <div class="media-body">
+                        <p class="title">Название научной статьи или публикацию на тему права, которую написал Название научной статьи или публикацию на тему права, которую написал Название научной статьи или публикацию на тему права, которую написал один из руководителей компании ИКС</p>
+                        <p class="name">Константин Константинопольский,</p>
+                        <p class="position">должность</p>
+                    </div>
+                </div>
+            </a>
+
         </div>
     </div>
 </section>
