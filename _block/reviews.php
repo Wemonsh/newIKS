@@ -4,7 +4,7 @@
             <div class="reviews-slider">
                 <div class="item">
                     <div class="row justify-content-end">
-                        <div class="col-md-4 col-xl-4 col-6 mb-3 wow fadeIn">
+                        <div class="col-md-4 col-xl-4 col-6 mb-3 wow fadeIn" data-toggle="modal" data-target=".report-modal">
                             <img src="/img/report.jpg" alt="">
                         </div>
                         <div class="col-md-4 col-xl-4 col-6 mb-3 wow fadeIn">
@@ -69,3 +69,4 @@
         </div>
     </div>
 </section>
+

@@ -107,12 +107,13 @@
   transform: translateY(0);
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1600px) {
   .global-menu {
     padding: 20px;
     overflow: scroll;
     max-width: 90%;
     height: 90vh;
-    margin: auto; }
+    margin: auto;
+    pointer-events: auto;}
   .global-menu::-webkit-scrollbar { width: 0; }
 }

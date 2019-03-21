@@ -61,15 +61,15 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1366px) {
   .text {
     box-sizing: border-box;
-    padding-left: 40%;
   }
   .about {
     .man {
 
-      img {
+      .img-man {
+        height: 100%;
         opacity: 0.8;
       }
     }

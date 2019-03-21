@@ -15,7 +15,7 @@
         <button>Перезвоните мне</button>
         <div class="custom-control custom-checkbox">
             <input type="checkbox" class="custom-control-input" id="customControlInline" checked>
-            <label class="custom-control-label" for="customControlInline">Нажимая на кнопку «Отправить заявку», вы соглашаетесь с <a href="#">политикой конфиденциальности</a></label>
+            <label class="custom-control-label" for="customControlInline">Нажимая на кнопку «Отправить заявку», вы соглашаетесь с <a data-toggle="modal" data-target=".privacy-policy">политикой конфиденциальности</a></label>
         </div>
     </form>
 </section>

@@ -1,7 +1,7 @@
 <section>
     <div class="about row">
         <div class="col-xl-5 man">
-            <img src="../img/bg_man.png" alt="">
+            <img class="img-man" src="../img/bg_man.png" alt="">
             <a href="#">
                 <img class="play wow fadeIn" src="../img/play.png" alt="">
             </a>
