@@ -2,7 +2,7 @@
     <h2 class="social_headline wow fadeIn"><span class="line">Мы в соцсетях</span></h2>
     <a class="social_link link wow fadeIn" href="#">@icslawyer</a>
 
-    <div class="card-columns mobile-slider">
+    <div class="card-columns social-slider">
         <a href="#" class="card wow fadeIn">
             <img class="card_img" src="../img/insta2.jpg" alt="">
             <p class="card_text">Председатель Совета Судей рассказал о двух моделях кассационного правосудия и судебной реформе в РФ. 13 апреля председатель Совета Судей В. Момотов выступил на юридическом форуме с докладом «Судебная реформа, которая уже началась в России» (полный текст доклада опубликован на официальном сайте Совета Судей) и изложил модель реформы</p>

@@ -61,7 +61,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-12 order-1 order-xl-2 col-xl-6">
+        <div class="col-lg-12 order-1 order-xl-2 col-xl-6 reviews-text">
             <h2 class="wow fadeIn"><span class="line">Более 200</span></br>
                 <span class="line">довольных</span></br>
                 <span class="line">клиентов</span></h2>

@@ -1,6 +1,6 @@
 <section>
     <div class="row protection">
-        <h2 class="protection_headline wow fadeIn"><span class="line">Защищаем</span><span class="line">интересы</span>
+        <h2 class="protection_headline wow fadeIn"><span class="line">Защищаем </span><span class="line">интересы</span>
             <span class="line">клиентов</span></h2>
         <div class="col-xl-9 col-md-12">
             <a class="link-wrapper" href="#">

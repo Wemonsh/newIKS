@@ -24,8 +24,37 @@ $(document).ready(function(){
         infinite: false,
         speed: 300,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    arrows: false
+                }
+            }
+            ]
     });
+
+
+    if ($(window).width() <= '540') {
+        $('.social-slider').slick({
+            responsive: [
+                {
+                    breakpoint: 540,
+                    settings: {
+                        dots: true,
+                        arrows: false,
+                        infinite: false,
+                        speed: 300,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    }
+
+
 });
 
 
