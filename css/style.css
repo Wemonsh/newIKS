@@ -210,10 +210,10 @@ h2 {
     max-width: 90%;
     height: 90vh;
     margin: auto; }
+  .global-menu::-webkit-scrollbar {
+    width: 0; }
   .is-opened-container .global-menu {
-    pointer-events: auto; }
-  .is-opened-container .global-menu::-webkit-scrollbar {
-    width: 0; } }
+    pointer-events: auto; } }
 
 .slider {
   max-width: 1680px;
@@ -1107,38 +1107,40 @@ footer {
       .info-worked .container .tab-pane .step .text-price .cost {
         color: #d23559;
         font-weight: 700; }
-    .info-worked .container .tab-pane .step .buttons-group .button {
-      float: left;
-      padding-top: 25px;
-      display: inline-block;
-      background-image: -webkit-linear-gradient(95deg, #c62c50 0%, #f0474f 100%);
-      background-image: -o-linear-gradient(95deg, #c62c50 0%, #f0474f 100%);
-      background-image: linear-gradient(-5deg, #c62c50 0%, #f0474f 100%);
-      width: 280px;
-      height: 75px;
-      -webkit-box-shadow: 0 20px 50px rgba(255, 54, 120, 0.3), 0 3px 10px rgba(236, 0, 72, 0.25);
-      box-shadow: 0 20px 50px rgba(255, 54, 120, 0.3), 0 3px 10px rgba(236, 0, 72, 0.25);
-      border-radius: 25px;
-      font-size: 1.125em;
-      text-transform: uppercase;
-      text-align: center;
-      color: #ffffff;
-      font-weight: 400;
-      text-decoration: none; }
-    .info-worked .container .tab-pane .step .buttons-group .download {
-      float: left;
-      padding-left: 30px; }
-      .info-worked .container .tab-pane .step .buttons-group .download img {
-        margin-top: -30px;
-        margin-right: 20px; }
-      .info-worked .container .tab-pane .step .buttons-group .download p {
-        margin-bottom: 0px;
+    .info-worked .container .tab-pane .step .buttons-group {
+      margin-top: 50px; }
+      .info-worked .container .tab-pane .step .buttons-group .button {
+        float: left;
+        padding-top: 25px;
         display: inline-block;
-        color: #d23559;
+        background-image: -webkit-linear-gradient(95deg, #c62c50 0%, #f0474f 100%);
+        background-image: -o-linear-gradient(95deg, #c62c50 0%, #f0474f 100%);
+        background-image: linear-gradient(-5deg, #c62c50 0%, #f0474f 100%);
+        width: 280px;
+        height: 75px;
+        -webkit-box-shadow: 0 20px 50px rgba(255, 54, 120, 0.3), 0 3px 10px rgba(236, 0, 72, 0.25);
+        box-shadow: 0 20px 50px rgba(255, 54, 120, 0.3), 0 3px 10px rgba(236, 0, 72, 0.25);
+        border-radius: 25px;
         font-size: 1.125em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #ffffff;
         font-weight: 400;
-        line-height: 20px;
-        text-decoration: underline; }
+        text-decoration: none; }
+      .info-worked .container .tab-pane .step .buttons-group .download {
+        float: left;
+        padding-left: 30px; }
+        .info-worked .container .tab-pane .step .buttons-group .download img {
+          margin-top: -30px;
+          margin-right: 20px; }
+        .info-worked .container .tab-pane .step .buttons-group .download p {
+          margin-bottom: 0px;
+          display: inline-block;
+          color: #d23559;
+          font-size: 1.125em;
+          font-weight: 400;
+          line-height: 20px;
+          text-decoration: underline; }
     .info-worked .container .tab-pane .step .info-block img {
       float: left;
       margin-right: 10px; }
@@ -1577,6 +1579,7 @@ footer {
     .info-interests .container ul {
       margin-top: 30px; }
       .info-interests .container ul li {
+        list-style-type: square;
         color: #d23559;
         font-size: 1.500em;
         font-weight: 400;
@@ -1607,7 +1610,7 @@ footer {
   margin: 100px auto; }
 
 .info-practice {
-  margin: 100px 0px; }
+  margin: 0px 0px 100px; }
   .info-practice .container {
     max-width: 1440px; }
     .info-practice .container .description {
@@ -1656,7 +1659,7 @@ footer {
         top: -40px;
         left: 20px; }
         .info-practice .container .practice-slider .slick-dots li button:before {
-          font-size: 24px !important; }
+          font-size: 12px !important; }
 
 .info-about {
   margin: 100px 0px; }

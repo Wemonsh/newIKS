@@ -339,6 +339,7 @@
           }
         }
         .buttons-group {
+          margin-top: 50px;
           .button {
             float: left;
             padding-top: 25px;
@@ -951,6 +952,7 @@ footer {
     ul {
       margin-top: 30px;
       li {
+        list-style-type: square;
         color: #d23559;
         font-size: 1.500em;
         font-weight: 400;
@@ -997,7 +999,7 @@ footer {
 }
 
 .info-practice {
-  margin: 100px 0px;
+  margin: 0px 0px 100px;
   .container {
     max-width: 1440px;
     .description {
@@ -1065,7 +1067,7 @@ footer {
         top: -40px;
         left: 20px;
         & li button:before {
-          font-size: 24px !important;
+          font-size: 12px !important;
         }
       }
     }

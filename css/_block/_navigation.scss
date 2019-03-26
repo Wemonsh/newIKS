@@ -115,9 +115,9 @@
     height: 90vh;
     margin: auto;
   }
+  .global-menu::-webkit-scrollbar { width: 0; }
   .is-opened-container {
     .global-menu {
       pointer-events: auto;}
-    .global-menu::-webkit-scrollbar { width: 0; }
   }
 }

@@ -35,6 +35,15 @@ $(document).ready(function(){
             ]
     });
 
+    $('.practice-slider').slick({
+        dots: true,
+        arrows: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    });
+
 
     if ($(window).width() <= '540') {
         $('.social-slider').slick({
