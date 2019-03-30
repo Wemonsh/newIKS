@@ -1216,6 +1216,7 @@ footer {
 .compact-header {
   padding-top: 100px;
   border-bottom: 4px solid rgba(223,219,221,0.5);
+  background-color: #ffffff;
   .container {
     max-width: 1440px;
     h1 {
@@ -1327,6 +1328,7 @@ footer {
 }
 
 .alternative-header {
+  background-color: #ffffff;
   .container {
     max-width: 1680px;
     .banner {
@@ -1585,7 +1587,10 @@ footer {
 
 
 .vacancy {
+  background-color: #ffffff;
   position: relative;
+  margin-bottom: 0 !important;
+  padding-bottom: 100px;
   .vacantion-info-wrapper {
     position: absolute;
     width: 100%;
@@ -1857,7 +1862,7 @@ footer {
                 width: 22px;
                 height: 28px;
                 content: '';
-                background-image: url("/img/paper-clip.png");
+                background-image: url("../img/paper-clip.png");
                 background-repeat: no-repeat;
               }
               &::after {
@@ -2101,6 +2106,7 @@ footer {
 }
 
 .press {
+  background-color: #ffffff;
   padding: 100px 0px;
   .container {
     font-size: 1em;
@@ -2317,7 +2323,7 @@ footer {
     display: block;
     color: #d1d1d1;
     max-width: 900px;
-    margin: 200px auto -190px;
+    margin: 100px auto -100px;
     p {
       font-size: 1.500em;
       color: #333333;
@@ -2513,6 +2519,7 @@ footer {
   .container {
     max-width: 1440px;
     .card {
+      margin-bottom: 30px;
       border-radius: 0;
       border: none;
       .card-img-top {
@@ -2520,6 +2527,7 @@ footer {
         background-color: #392936;
       }
       .card-body {
+        min-height: 200px;
         .card-title {
           margin-top: 20px;
           font-size: 1.500em;
@@ -3047,4 +3055,52 @@ footer {
 .modal-body > span {
   font-weight: bolder;
   color: #dc3847;
+}
+
+.privacy-policy {
+  .modal-content {
+    margin-top: 30% !important;
+    padding: 20px;
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2em;
+      letter-spacing: normal;
+    }
+    h2 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      letter-spacing: normal;
+    }
+    h3 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      letter-spacing: normal;
+    }
+    h4 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      letter-spacing: normal;
+    }
+    h5 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      letter-spacing: normal;
+    }
+    h6 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      letter-spacing: normal;
+    }
+    p {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      letter-spacing: normal;
+    }
+    span {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      letter-spacing: normal;
+    }
+  }
+
 }
