@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 banner">
-                    <img src="img/alternative-banner7.png" alt="">
+                    <img src="../img/alternative-banner7.png" alt="">
                 </div>
             </div>
         </div>
@@ -13,7 +13,7 @@
 <section class="article">
     <div class="container">
         <div class="row">
-            <div class="col-2">
+            <div class=".col-md-12 col-xl-2">
                 <div class="author">
                     <img src="/img/avatar.png" alt="">
                     <span class="name">Александр Баев</span>
@@ -22,7 +22,7 @@
                     <a href="#">11 статей</a>
                 </div>
             </div>
-            <div class="col-8 cover-article">
+            <div class=".col-md-12 col-xl-8 cover-article">
                 <h1><span class="line">Название статьи</span></br>
                     <span class="line">о юридическом</span></br>
                     <span class="line">процессе</span></h1>
@@ -46,7 +46,7 @@
                 <p>Особое влияние на российскую правовую систему оказывает европейское право. Европейский Союз является крупнейшим экономическим партнером Российской Федерации, и понимание новейших тенденций развития европейского законодательства является чрезвычайно важным как для облегчения взаимодействия российских компаний с европейскими контрагентами, так и для изучения перспектив совершенствования российского законодательства с учетом передового мирового опыта.</p>
 
             </div>
-            <div class="col-2">
+            <div class=".col-md-12 col-xl-2 right-sidebar">
                 <div class="post-card">
                     <a href="#" class="link-wrapper">
                         <img src="/img/post-img.png" alt="">

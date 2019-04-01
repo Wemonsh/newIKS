@@ -2846,6 +2846,7 @@ footer {
     .post-card {
       margin-top: 990px;
       img {
+        max-width: 100%;
         margin-bottom: 30px;
       }
       p {
@@ -3040,6 +3041,58 @@ footer {
     }
   }
 }
+
+@media (max-width: 1366px) {
+  .article {
+    .container {
+      .cover-article {
+        h1 {
+          font-size: 2.5em !important;
+          span {
+            margin-left: -10px;
+            padding-left: 10px;
+          }
+          .line {
+            position: relative;
+            &::after {
+              content: "";
+              position: absolute;
+              z-index: -1;
+              top: 20px;
+              left: 0px;
+              right: 0px;
+              bottom: 0px;
+              border-top: #fbe3bd solid 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .article {
+    .container {
+      .cover-article {
+        padding-top: 20px;
+      }
+      .right-sidebar {
+        display: none;
+      }
+      .author {
+        padding: 0px 80px;
+        margin-top: 150px;
+        max-width: 100%;
+        img {
+          float: left;
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+}
+
 
 .modal-content {
   border: 3px solid #e5e0e1;
