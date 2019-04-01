@@ -13,7 +13,7 @@
 <section class="article">
     <div class="container">
         <div class="row">
-            <div class=".col-md-12 col-xl-2">
+            <div class=".col-md-12 col-xl-2 cover-author">
                 <div class="author">
                     <img src="/img/avatar.png" alt="">
                     <span class="name">Александр Баев</span>
@@ -63,7 +63,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-12 article-links">
                 <a href="#">
                     <div class="left">
                         <img src="/img/card-left.png" alt="">

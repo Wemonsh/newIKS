@@ -2943,11 +2943,12 @@ footer {
   .article-header .banner {
     min-height: 640px !important; }
     .article-header .banner img {
+      -o-object-fit: cover;
+      object-fit: cover;
       width: 100%;
       min-height: 100% !important; }
 
 .article {
-  margin-bottom: 50px;
   padding-bottom: 100px;
   background-color: #ffffff; }
   .article .container {
@@ -3130,7 +3131,7 @@ footer {
         bottom: 0px;
         border-top: #fbe3bd solid 15px; } }
 
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
   .article .container .cover-article {
     padding-top: 20px; }
   .article .container .right-sidebar {
@@ -3140,8 +3141,68 @@ footer {
     margin-top: 150px;
     max-width: 100%; }
     .article .container .author img {
+      width: 140px;
+      border-radius: 50%;
       float: left;
-      margin-right: 30px; } }
+      margin-right: 30px; }
+  .article .container .left {
+    float: none;
+    max-width: 100%; }
+    .article .container .left span {
+      margin-bottom: 10px;
+      padding-top: 10px; }
+  .article .container .right {
+    float: none;
+    margin-top: 30px;
+    max-width: 100%; }
+    .article .container .right span {
+      margin-bottom: 10px;
+      padding-top: 10px; } }
+
+@media (max-width: 720px) {
+  .article-header {
+    max-height: 320px; }
+  .article .container .cover-author {
+    background-color: #ffffff; }
+  .article .container .cover-article {
+    padding: 60px 20px;
+    font-size: 0.8em; }
+  .article .container .author {
+    margin-top: 50px;
+    padding: 0px 10px; }
+  .article .container .left, .article .container .right {
+    font-size: 0.8em;
+    max-height: 150px; }
+    .article .container .left img, .article .container .right img {
+      max-width: 150px;
+      height: 150px; }
+    .article .container .left span, .article .container .right span {
+      margin-bottom: 10px;
+      margin-top: 10px; } }
+
+@media (max-width: 560px) {
+  .article .container .cover-article h1 {
+    letter-spacing: normal;
+    font-size: 2.5em !important; }
+    .article .container .cover-article h1 span {
+      margin-left: -10px;
+      padding-left: 10px; }
+    .article .container .cover-article h1 .line {
+      position: relative; }
+      .article .container .cover-article h1 .line::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 10px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        border-top: #fbe3bd solid 10px; }
+  .article .container .left, .article .container .right {
+    padding-left: 10px;
+    padding-right: 10px; }
+    .article .container .left img, .article .container .right img {
+      display: none; } }
 
 .modal-content {
   border: 3px solid #e5e0e1; }
