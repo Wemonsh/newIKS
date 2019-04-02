@@ -116,6 +116,7 @@
     margin: auto;
   }
   .global-menu::-webkit-scrollbar { width: 0; }
+  .global-menu { scrollbar-width: none; }
   .is-opened-container {
     .global-menu {
       pointer-events: auto;}

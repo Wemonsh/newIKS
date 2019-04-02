@@ -212,6 +212,8 @@ h2 {
     margin: auto; }
   .global-menu::-webkit-scrollbar {
     width: 0; }
+  .global-menu {
+    scrollbar-width: none; }
   .is-opened-container .global-menu {
     pointer-events: auto; } }
 
@@ -887,6 +889,8 @@ footer {
         .mission .container .icons-m .icon-m p {
           font-size: 1.125em; }
         .mission .container .icons-m .icon-m img {
+          max-width: 150px;
+          max-height: 80px;
           margin-bottom: 10px; }
   .mission .headline {
     text-align: center; }
